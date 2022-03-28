@@ -1,5 +1,5 @@
 body {
-  background-image: url("bgimage.jpg");
+  background-image: url('bgimage.jpg');
 
   background-repeat: no-repeat;
    background-size: 100% 100%;
@@ -17,7 +17,4 @@ h1 {
   align-items: start;
   justify-content: space-between;
   
-}
-img{
-  display: flex;
 }
