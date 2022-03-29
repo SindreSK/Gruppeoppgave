@@ -1,24 +1,34 @@
 body {
-  background-image: url('bgimage.jpg');
+  background-image: url("bgimage.jpg");
 
   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   }
-  
-h1 {
-  font-family: 'Sofia', sans-serif;
-  font-size: 60px;
- 
+  background-size: 100% 100%;
+  text-align: center;
 }
-.columns{
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 60px;
+}
+.columns {
   display: grid;
   width: 1000px;
-  grid-template-columns: 120px 120px 120px 120px 120px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: start;
   justify-content: space-between;
-  
+  align-content: center;
+  margin: auto;
+  gap: 30px;
 }
-img{
+img {
   /* just a chenge text here(doesnt matter) */
   image-resolution: 100%;
+}
+.bildecontainer {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+.bildecontainer:hover {
+  transform: scale(1.5);
 }
